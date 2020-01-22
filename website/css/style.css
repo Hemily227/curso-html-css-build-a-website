@@ -1,0 +1,123 @@
+body{
+    background-color: #f4f4f4 ; 
+    margin: 0; 
+}
+.top-title{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(85, 98, 110);
+}
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0 9px 13px 5px rgba(0, 0, 0, 0.596) ;
+}
+.header{
+    padding: 45px 0 20px 40px;
+}
+.menu{
+    background-color: #2677a7;
+    padding: 6px 0 6px 40px;
+}
+.menu a{
+    color: rgb(250, 236, 212);
+    text-decoration: none;
+    font-size:  15px;
+    font-family: "Arial Narrow","Myrid Pro";
+}
+.menu a:hover{
+    color: white;
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myrid Pro";
+    font-weight: normal;
+}
+h2{
+    color: #2677a7;
+    font-size: 15px;
+    margin: 20px o 5px 0;
+}
+.article{
+    margin: 0 0 0 180px;
+    padding: 20px 40px 30px 0;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+.article a:hover{
+    color: #444;
+}
+#home-image img{
+    width: 100%;
+}
+.footer{
+    padding: 6px 40px 6px 40px;
+    background-color: #918f8f;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    text-align: right;
+    clear: both;
+}
+
+/****************** about page ******************/
+
+#about-page #home-image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+#about-page .description{
+    clear: both;
+
+}  
+
+/***************** contact page *****************/
+
+#contact-page form{
+    width: 500px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 9px 13px 5px rgba(0, 0, 0, 0.596);
+}
+#contact-page .heading{
+    text-align: center;
+}
+#contact-page #form input{
+    background-color: #ccc;
+    width: 100%;
+    border-radius: 5px;
+    height: 22px;
+}
+#contact-page #form #message{
+    background-color: #ccc;
+    width: 100%;
+    border-radius: 5px;
+}
+#contact-page #form #submit{
+    height: 25px;
+    background-color: #2677a7;
+    color: blanchedalmond;
+}
+
+
+
+
